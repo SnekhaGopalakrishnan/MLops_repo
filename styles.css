@@ -1,0 +1,404 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('cool-background.png');
+    /*background-color: #f4f4f4;*/
+    background-size: cover; /* Ensure the image covers the entire background */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+.header-style {
+    background-image: url('cool-background.png');
+    background-size: cover; /* Ensure the image covers the entire header */
+    background-repeat: no-repeat;
+    background-position: center center; /* Center the image both horizontally and vertically */
+    color: #fff; /* Text color on top of the image */
+    text-align: center;
+    padding: 30px;
+}
+
+.header-style h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+    /*vertical-align: top;  Align the text to the top */
+}
+
+
+header p {
+    font-size: 1.2rem;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffc107;
+}
+
+/* Main Content Styles */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Testimonial Styles */
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #0073e6;
+}
+
+.testimonial p.quote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial p.author {
+    font-weight: bold;
+}
+
+/* Button Styles */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover {
+    background-color: #c0392b; /* Change the background color on hover */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Social Links */
+.social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffc107;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+header nav {
+    margin-top: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ffc107;
+}
+
+/* Main Content Styles */
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Testimonial Styles */
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px 0;
+    border-left: 4px solid #0073e6;
+}
+
+.testimonial p.quote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.testimonial p.author {
+    font-weight: bold;
+}
+
+/* Button Styles */
+a {
+    text-decoration: none;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a:hover {
+    background-color: #ffc107;
+    transform: scale(1.05);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+
+/* Social Links */
+.social-links a {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ffc107;
+}
+
+/* ... (Your existing CSS rules) */
+
+/* Interactive AI Images Styles */
+.interactive-images {
+    text-align: center;
+}
+
+.ai-image {
+    display: inline-block;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.ai-image img {
+    width: 200px; /* Adjust the image size as needed */
+    border: 2px solid #0073e6;
+    border-radius: 10px;
+}
+
+.ai-image p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.ai-image:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+
+
+/* Button Styles */
+a.try-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C27B0; /* Change the background color */
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.7s ease, transform 0.50s ease, box-shadow 0.50s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); 
+}
+
+a.try-button1:hover {
+    background-color: #8E24AA; /* Change the background color on hover */
+    border-radius: 15px;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+a.try-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C27B0; /* Change the background color */
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.try-button2:hover {
+    background-color: #8E24AA; /* Change the background color on hover */
+    border-radius: 15px;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+a.try-button3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C27B0; /* Change the background color */
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.try-button3:hover {
+    background-color: #8E24AA; /* Change the background color on hover */
+    border-radius: 15px;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+a.try-button4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C27B0; /* Change the background color */
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.try-button4:hover {
+    background-color: #8E24AA; /* Change the background color on hover */
+    border-radius: 15px;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+a.try-button5 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #9C27B0; /* Change the background color */
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+a.try-button5:hover {
+    background-color: #8E24AA; /* Change the background color on hover */
+    border-radius: 15px;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+
+/* ################Add styling to the container for the falling text */
+/* CSS in styles.css */
+
+/* Add styling to the container for the falling text */
+.falling-text {
+    position: fixed;
+    top: -100px; /* Initial position, above the viewport */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+/* Add styling to the falling text itself */
+.falling-text span {
+    font-size: 2rem; /* Adjust the font size as needed */
+    color: #3498db; /* Text color */
+}
+
+/* Create a keyframe animation for the falling effect */
+@keyframes fall {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 50px; /* Adjust the final position as needed */
+    }
+}
+
+/* Apply the animation to the falling-text class when the animation is triggered */
+.falling {
+    animation: fall 2s linear forwards;
+}
+
+
+
+
